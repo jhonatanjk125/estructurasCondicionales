@@ -9,7 +9,7 @@ Algoritmo ANOBISIESTO
 			Escribir ANO, ' no es bisiesto'
 		FinSi
 	SiNo
-		Si (ANO%4==0 y ANO%100<>0 o ANO%400==0) Entonces
+		Si (ANO MOD 4==0 Y ANO MOD 100<>0 O ANO MOD 400==0) Entonces
 			Escribir ANO, ' es bisiesto'
 		SiNo
 			Escribir ANO, ' no es bisiesto'
